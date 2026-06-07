@@ -3,8 +3,8 @@ package arrays.fundamentals;
 import java.util.List;
 
 public class SumOfArrayElements {
-    public static int arraySum(List<Integer> arr) {
-        if (arr.isEmpty())    throw new IllegalArgumentException("Please provide values for operating.");
+    public static int arraySum(int[] arr) {
+        if (arr == null || arr,length == 0)    throw new IllegalArgumentException("Please provide values for operating.");
 
         int sum = 0;
 
