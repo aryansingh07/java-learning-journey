@@ -2,7 +2,7 @@ package arrays.fundamentals;
 
 public class EvenAndOddElementsInArray {
     public static int[] countOddEvenElements(int[] arr) {
-        if (arr.length == 0)    throw new IllegalArgumentException("Please provide values for operating.");
+        if (arr == null || arr.length == 0)    throw new IllegalArgumentException("Please provide values for operating.");
 
         int even = 0;
         int odd = 0;
