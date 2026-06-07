@@ -2,7 +2,7 @@ package arrays.fundamentals;
 
 public class SmallestElement {
     public static int smallestElement(int[] arr) {
-        if (arr.length == 0)    throw new IllegalArgumentException("Please provide values to operate");
+        if (arr == null || arr.length == 0)    throw new IllegalArgumentException("Please provide values to operate");
 
         int smallest = 0;
 
