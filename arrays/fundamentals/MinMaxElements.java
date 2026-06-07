@@ -5,7 +5,7 @@ import java.util.List;
 
 public class MinMaxElements {
     public static ArrayList<Integer> minMax(int[] arr) {
-        if(arr.length == 0)   throw new IllegalArgumentException("Please provide values for operating.");
+        ifarr == null || arr.length == 0)   throw new IllegalArgumentException("Please provide values for operating.");
 
         int min = arr[0];
         int max = arr[0];
