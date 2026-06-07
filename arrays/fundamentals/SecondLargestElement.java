@@ -2,7 +2,7 @@ package arrays.fundamentals;
 
 public class SecondLargestElement {
     public static int secondLargestElement (int[] arr) {
-        if (arr.length == 0)    throw new IllegalArgumentException("Please provide values for operation.");
+        if (arr == null || arr.length == 0)    throw new IllegalArgumentException("Please provide values for operation.");
 
         int largest = arr[0];
         int secondLargest = -1;
