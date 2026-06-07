@@ -2,7 +2,7 @@ package arrays.fundamentals;
 
 public class CountFrequencyOfElement {
     public static int countFrequency(int[] arr, int x) {
-        if(arr.length == 0) throw new IllegalArgumentException("Please provide values for operating.");
+        if(arr == null || arr.length == 0) throw new IllegalArgumentException("Please provide values for operating.");
 
         if(arr.length == 1 )    return arr[0];
 
