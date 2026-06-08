@@ -6,7 +6,7 @@ import java.util.Arrays;
 public class RemoveDuplicateElements {
     //given sorted array
     public static ArrayList<Integer> removeDuplicate(int[] arr) {
-        if(arr.length == 0) throw new IllegalArgumentException("Please provide values for operating");
+        if(arr == null || arr.length == 0) throw new IllegalArgumentException("Please provide values for operating");
 
         ArrayList<Integer> result = new ArrayList<>();
         result.add(arr[0]);
